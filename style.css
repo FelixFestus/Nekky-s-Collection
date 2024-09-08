@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.navBar ul li{
+    margin-top: 3rem;
+  
+}
+.navBar ul {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: rgb(177, 176, 176);
+
+   
+}
+.navBar ul li a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.navBar ul li a:hover{
+    background-color: rgb(142, 168, 9);
+    padding: 2rem;
+    color: navy;
+    font-weight: 600;
+}
+.navBar ul h2{
+    font-size: 4rem;
+    color: rgb(204, 242, 17);
+    margin: 3rem;
+    
+}
+.one{
+    width: 100%;
+    height: 90vh;
+    background-image: url(nbg.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+    flex-direction: column;
+
+    
+}
+.onet{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.one h3{
+    font-size: 5rem;
+    color:  aliceblue;
+}
+.one h5{
+    font-size: 4rem;
+    color: aliceblue;
+}
+.one p{
+    font-size: 3rem;
+    color: aliceblue;
+}
+.one button{
+    background-color: rgb(232, 115, 134);
+    padding: 2rem;
+    border: none;
+    border-radius: 20rem;
+    font-size: 2rem;
+}
+.one button:hover{
+    background-color: rgb(242, 75, 103);
+}
+.allp{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.two{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+    background-color: gray;
+}
+.tfirst{
+    width: 30%;
+    transition: 2s;
+}
+.tfirst:hover{
+    width: 40%;
+}
+.tsec{
+    width: 30%;
+}
+.tsec:hover{
+    width: 40%;
+}
+.tthird{
+    width: 30%;
+}
+.tthird:hover{
+    width: 40%;
+}
+.two h4{
+    font-size: 3rem;
+    color: aliceblue;
+    text-align: center;
+}
+.product{
+    text-align: center;
+    font-size: 5rem;
+    color: black;
+    
+}
+.three{
+    width: 100%;
+    height: 260vh;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+    row-gap: 3rem;
+    margin: 3rem;
+}
+.three.men1{
+    width: 25%;
+}
+.men1:hover{
+    width: 90%;
+}
+.three p{
+    font-size: 3rem;
+}
+.load{
+    text-align: center;
+}
+.load button{
+    background-color: rgb(232, 115, 134);
+    padding: 2rem;
+    border: none;
+    border-radius: 20rem;
+    font-size: 2rem;
+}
+.load button:hover{
+    background-color: rgb(242, 75, 103);
+}
+.book{
+    width: 100%;
+    height: 80vh;
+    
+}
+.book h2{
+    font-size: 4rem;
+    color: navy;
+}
+.name{
+    width: 70%;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+.fcon{
+    width: 50%;
+    padding: 5rem;
+}
+.fimg{width: 50%;
+   
+}
+.bcon{
+    display: flex;
+    justify-content: space-around;
+    padding: 10rem;
+
+}
+.fcon{
+    width: 50%;
+}
+.fcon h2{
+    margin-left: 1rem;
+}
+.book button{
+    text-align: center;
+    padding: 3rem;
+    background-color:rgb(232, 115, 134);
+    font-size: 2rem; 
+    border: none;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: navy;
+}
+.book button:hover{
+    text-align: center;
+    padding: 3rem;
+    background-color:rgb(242, 75, 103);
+    font-size: 2rem; 
+    border: none;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: navy;
+}
+.four{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cate{
+    margin-top: 4rem;
+   width: 30%;
+   margin-left: 10rem;
+}
+.cate h3{
+    font-size: 4rem;
+    color: aliceblue;
+}
+.cate ul{
+    list-style-type: none;  
+}
+.cate ul li a{
+    color: aliceblue;
+    font-size: 3rem;
+    text-decoration: none;
+}
+.cate ul li a:hover{
+    color: aqua;
+}
+.get h3{
+    margin-top: 4rem;
+    font-size: 4rem;
+    color: aliceblue;
+}
+.get p{
+    font-size: 3rem;
+    width: 40%; 
+}

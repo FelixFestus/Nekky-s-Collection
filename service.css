@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+nav ul li{
+    margin-top: 3rem;
+  
+}
+nav ul {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: rgb(177, 176, 176);
+
+   
+}
+nav ul li a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+nav ul h2{
+    font-size: 4rem;
+    color: rgb(204, 242, 17);
+    margin: 3rem;
+}
+nav ul li a:hover{
+    background-color: rgb(204, 242, 17);
+    padding: 2rem;
+    color: navy;
+    font-weight: 600;
+}
+.serv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 7rem;
+  
+}
+.servi{
+    width: 40%;
+}
+.sert{
+    width: 50%;
+    padding-left: 5rem;
+    margin-top: 10rem;
+}
+.sert h3{
+    font-size: 5rem;
+    color: navy;
+}
+.sert p{
+    font-size: 3rem;
+}
+.sert button{
+    text-align: center;
+    padding: 3rem;
+    background-color:rgb(232, 115, 134);
+    font-size: 2rem; 
+    border: none;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: navy;
+}
+.sert button:hover{
+    text-align: center;
+    padding: 3rem;
+    background-color:rgb(242, 75, 103);
+    font-size: 2rem; 
+    border: none;
+    border-radius: 5rem;
+    font-weight: 600;
+    color: navy;
+}
+.four{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cate{
+    margin-top: 4rem;
+   width: 30%;
+   margin-left: 10rem;
+}
+.cate h3{
+    font-size: 4rem;
+    color: aliceblue;
+}
+.cate ul{
+    list-style-type: none;  
+}
+.cate ul li a{
+    color: aliceblue;
+    font-size: 3rem;
+    text-decoration: none;
+}
+.cate ul li a:hover{
+    color: aqua;
+}
+.get h3{
+    margin-top: 4rem;
+    font-size: 4rem;
+    color: aliceblue;
+}
+.get p{
+    font-size: 3rem;
+    width: 40%; 
+}
